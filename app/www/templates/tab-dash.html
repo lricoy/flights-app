@@ -1,0 +1,11 @@
+<ion-view title="Dashboard">
+  <ion-content>
+
+    <ion-list>
+      <ion-item ng-repeat="oferta in ofertas" type="item-text-wrap" href="#/tab/oferta/{{oferta._id}}">
+        {{oferta.tittle}}
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+</ion-view>
